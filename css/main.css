@@ -75,7 +75,7 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -112,7 +112,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
-    color: #000000;
+    color: ghostwhite;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -1228,7 +1228,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
-    color: #000000;
+    color: ghostwhite;
     margin-top: 0;
 }
 
@@ -1755,10 +1755,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .4;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    opacity: 0.8;
+    /* background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%); */
+    background: -webkit-linear-gradient(top, transparent 0%, rgb(43 126 185 / 57%) 100%);
+    /* background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%); */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 10.3rem;
+    font-size: 13rem;
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
@@ -2054,7 +2054,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
-        font-size: 6rem;
+        font-size: 10rem;
     }
     .home-content__main {
         max-width: 1000px;
@@ -2063,7 +2063,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
-        font-size: 5.5rem;
+        font-size: 8.5rem;
     }
     .home-content__main {
         max-width: 800px;
@@ -2072,7 +2072,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .home-content h1 {
-        font-size: 4.6rem;
+        font-size: 6.65rem;
     }
     .home-content br {
         display: none;
@@ -2086,10 +2086,10 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 800px) {
     .home-content h3 {
-        font-size: 1.5rem;
+        font-size: 5.38rem;
     }
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .home-content__main {
         padding-right: 70px;
@@ -2174,7 +2174,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
-        font-size: 3.3rem;
+        font-size: 5.75rem;
     }
 }
 
@@ -2183,7 +2183,7 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 3.2rem;
+        font-size: 5.75rem;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2200,7 +2200,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    /* background-color: #39b54a; */
+    background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
     color: #010507;
     position: relative;
 }
@@ -2370,8 +2371,9 @@ html.no-csstransitions .home-content__main {
 .s-services {
     padding-top: 16.2rem;
     padding-bottom: 13.2rem;
-    background-color: #FFFFFF;
-    color: #757575;
+    /* background-color:  rgb(24, 26, 27); */
+    background: linear-gradient(rgb(35, 35, 35) 0%, #111111 100%);
+    color:lightcyan;
     position: relative;
 }
 
@@ -2492,8 +2494,9 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     padding: 0 0 15rem 0;
+    background: linear-gradient(#111111 0%, rgb(35, 35, 35) 100%);
     min-height: 800px;
     position: relative;
 }
@@ -2732,7 +2735,8 @@ html.no-csstransitions .home-content__main {
 .s-clients {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
-    background-color: #e6e6e6;
+    /* background-color: #e6e6e6; */
+    background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
     color: #757575;
     position: relative;
 }
@@ -3341,7 +3345,7 @@ footer {
 
 footer h4 {
     color: #FFFFFF;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     line-height: 1.313;
     margin-top: 0;
     margin-bottom: 3.6rem;
@@ -3381,10 +3385,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
+    width: 150px;
+    height: 55px;
     background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    background-size: 150px 55px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
