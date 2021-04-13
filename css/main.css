@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 6.3rem;
+    font-size: 10.3rem;
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
@@ -3597,6 +3597,11 @@ footer .row {
     .footer-main .right {
         padding-left: 0;
     }
+}
+
+.sponsors{
+    font-size: 13rem ;
+    color :#39b54a ;
 }
 
 
